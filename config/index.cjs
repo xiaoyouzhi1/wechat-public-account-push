@@ -13,15 +13,15 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'e9dade933acc9e1952e169e873eccd3b',
 
-  PROVINCE: '江西',
-  CITY: '吉安',
+  PROVINCE: '江西省',
+  CITY: '吉安市',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小胡',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'okOE66x2kYeJxQwXeqTKbgQI0TsU',
+      id: 'okOE66xdulcjuW2uL8_L-htgqQBcU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '_GGQQNtGEMDkvylZ9WqXsBmoyV3LvEwuMIdTH8omJTo',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '小胡', year: '1996', date: '09-09',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '2005', date: '09-22',
+          type: '生日', name: '小胡', year: '2005', date: '09-22',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '05-23',
